@@ -1,0 +1,157 @@
+.body, .html {
+    height: 100%;
+    display: grid;
+}
+
+.body {
+    overflow-y: hidden;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/questionBcg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    margin: auto;
+    width: 43.313rem;
+    height: 34.875rem;
+}
+
+.header {
+    width: 43.375rem;
+    height: 11.75rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: inherit;
+    font-weight: 500;
+}
+
+.client {
+    margin-top: 3rem;
+    color: #f15025;
+    font-size: 1.5rem;
+    font-weight: inherit;
+    width: 41.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.563rem;
+}
+
+.main-header {
+    width: 41.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    font-weight: inherit;
+    color: #fff;
+}
+
+.testimonial-container {
+    width: 41.563rem;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0.05rem solid #fff;
+    border-radius: 0.25rem;
+    position: relative;
+}
+
+.avatar {
+    width: 9.375rem;
+    height: 6.313rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: -17%;
+    border-radius: 50%;
+}
+
+.btn {
+    position: absolute;
+    width: 1.938rem;
+    height: 3.188rem;
+    color: #f15025;
+    border: 0.1rem solid #f15025;
+    top: 40%;
+    border-radius: 50%;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #f15025;
+    color: #fff;
+}
+
+.btn:focus, .btn:active {
+    outline: none;
+}
+
+.btnPrev {
+    left: -2.2rem;
+}
+
+.btnNext {
+    left: 41.8rem;
+}
+
+.customer {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 3.7rem;
+    width: 39.375rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+}
+
+.review-stars {
+    width: 39.375rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.563rem;
+}
+
+.star-icon {
+    padding-left: 0.2rem;
+}
+
+.star {
+    width: 1.3rem;
+    color: #f15025;
+}
+
+.text {
+    display: block;
+    width: 39.375rem;
+    max-height: 9rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.125rem;
+    overflow: auto;
+    text-align: center;
+    color: #fff;
+}
+
+.quote-icon {
+    display: flex;
+    width: 39.375rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    justify-content: center;
+}
+
+.quote {
+    width: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: #f15025;
+}
